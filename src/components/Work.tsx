@@ -3,36 +3,38 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const projects = [
   {
     title: "Solid Starters",
     category: "Low-Code Platform",
     tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
+    image: `${baseUrl}images/Solidx.png`,
   },
   {
     title: "Radix",
     category: "E-Commerce",
     tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
+    image: `${baseUrl}images/radix.png`,
   },
   {
     title: "Bond Cancellation",
     category: "Import-Export Automation",
     tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
+    image: `${baseUrl}images/bond.png`,
   },
   {
     title: "Sapphire",
     category: "CRM Platform",
     tools: "AngularJS, NestJS, PostgreSQL",
-    image: "/images/sapphire.png",
+    image: `${baseUrl}images/sapphire.png`,
   },
   {
     title: "Mpro",
     category: "Insurance Platform",
     tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    image: `${baseUrl}images/Maxlife.png`,
   },
 ];
 
