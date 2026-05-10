@@ -20,7 +20,7 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/satishghode"
+              href="https://github.com/satish-ghode"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -28,7 +28,7 @@ const Contact = () => {
               Github <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/satishghode"
+              href="https://www.linkedin.com/in/satish-ghode"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -43,21 +43,21 @@ const Contact = () => {
             >
               Twitter <MdArrowOutward />
             </a>
-            <a
+            {/* <a
               href="https://www.instagram.com/satishghode"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
               Instagram <MdArrowOutward />
-            </a>
+            </a> */}
           </div>
           <div className="contact-box">
             <h2>
               Designed and Developed <br /> by <span>Satish Ghode</span>
             </h2>
             <h5>
-              <MdCopyright /> 2025
+              <MdCopyright />{new Date().getFullYear()}
             </h5>
           </div>
         </div>
